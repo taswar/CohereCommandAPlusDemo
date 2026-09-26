@@ -1,5 +1,7 @@
 # Cohere Command A+ on Microsoft Foundry — C# Demo
 
+Blog Post: [Stop Stitching Models Together — Cohere Command A+ Lands in Microsoft Foundry](https://taswar.zeytinsoft.com/stop-stitching-models-together-cohere-command-a-lands-in-microsoft-foundry/)
+
 A minimal .NET console app that calls the **Cohere Command A+** model deployed on
 **Microsoft Foundry** using the `Azure.AI.Inference` SDK. It demonstrates:
 
