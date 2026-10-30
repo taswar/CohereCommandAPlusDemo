@@ -7,10 +7,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
-- 📖 Full walkthrough: [Stop Stitching Models Together — Cohere Command A+ Lands in Microsoft Foundry](https://taswar.zeytinsoft.com/stop-stitching-models-together-cohere-command-a-lands-in-microsoft-foundry/)
+- 📖 Full walkthrough: [Stop Stitching Models Together — Cohere Command A+ Lands in Microsoft Foundry](https://taswar.zeytinsoft.com/stop-stitching-models-together-cohere-command-a-lands-in-microsoft-foundry/?utm_source=github&utm_medium=readme&utm_campaign=CohereCommandAPlusDemo&utm_content=walkthrough)
 - ⭐ If this sample helps you, star the repo so other .NET developers can find it.
 - 🔁 Related: [Cohere Rerank v5 C# Sample](https://github.com/taswar/Cohere-Rerank-V5-Pro-Fast-Csharp-Sample)
-- For more C# samples using other AI models, see [AI models for C# developers](https://taswar.zeytinsoft.com/foundry-ai-models-csharp/)
+- For more C# samples using other AI models, see [AI models for C# developers](https://taswar.zeytinsoft.com/foundry-ai-models-csharp/?utm_source=github&utm_medium=readme&utm_campaign=CohereCommandAPlusDemo&utm_content=ai-models-hub)
 - For my free ebook on prompt engineering, see [Prompt Engineering for .NET Developers](https://github.com/taswar/PromptEngineeringForDotNetDevelopers)
 
 A minimal .NET console app that calls the **Cohere Command A+** model deployed on
