@@ -38,7 +38,7 @@ options.Messages.Add(new ChatRequestSystemMessage(
     say so explicitly rather than guessing at its content.
  
     Return your analysis as structured JSON with these fields:
-    -parties: array of parties to the agreement
+    - parties: array of parties to the agreement
     - effective_date: string or "not specified"
     - term_length: string or "not specified"
     - renewal_terms: string or "not specified"
@@ -58,7 +58,7 @@ options.Messages.Add(new ChatRequestUserMessage(
     This Agreement is entered into on 1 August 2026 between Zeytin Software Ltd
     ("Licensor") and GlobalCorp Industries GmbH ("Licensee").
  
-    1.LICENSE GRANT.Licensor grants Licensee a non-exclusive, non-transferable
+    1. LICENSE GRANT. Licensor grants Licensee a non-exclusive, non-transferable
        license to use the Software during the Term.
  
     2. TERM. This Agreement shall commence on the Effective Date and continue
@@ -102,10 +102,10 @@ options.Messages.Add(new ChatRequestUserMessage(
     DIENSTLEISTUNGSVERTRAG
 
 
-    Dieser Vertrag wird zwischen der Zeytin Software GmbH (&quot; Auftragnehmer & quot;)
-    und der Berliner Handelsgesellschaft mbH (&quot; Auftraggeber & quot;) geschlossen.
+    Dieser Vertrag wird zwischen der Zeytin Software GmbH ("Auftragnehmer")
+    und der Berliner Handelsgesellschaft mbH ("Auftraggeber") geschlossen.
  
-    § 1 VERTRAGSGEGENSTAND.Der Auftragnehmer verpflichtet sich zur Bereitstellung
+    § 1 VERTRAGSGEGENSTAND. Der Auftragnehmer verpflichtet sich zur Bereitstellung
     von Softwareentwicklungsleistungen.
  
     § 2 LAUFZEIT. Der Vertrag beginnt am 15. September 2026 und läuft für eine

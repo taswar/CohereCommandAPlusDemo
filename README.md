@@ -1,12 +1,23 @@
 # Cohere Command A+ on Microsoft Foundry — C# Demo
 
-Blog Post: [Stop Stitching Models Together — Cohere Command A+ Lands in Microsoft Foundry](https://taswar.zeytinsoft.com/stop-stitching-models-together-cohere-command-a-lands-in-microsoft-foundry/)
+![Cohere Command A+ lands in Microsoft Foundry](https://taswar.zeytinsoft.com/wp-content/uploads/2026/07/Cohere-Command-A-Plus-Lands-in-Microsoft-Foundry-v2.png)
+
+[![Build](https://github.com/taswar/CohereCommandAPlusDemo/actions/workflows/dotnet.yml/badge.svg)](https://github.com/taswar/CohereCommandAPlusDemo/actions/workflows/dotnet.yml)
+![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+
+- 📖 Full walkthrough: [Stop Stitching Models Together — Cohere Command A+ Lands in Microsoft Foundry](https://taswar.zeytinsoft.com/stop-stitching-models-together-cohere-command-a-lands-in-microsoft-foundry/)
+- ⭐ If this sample helps you, star the repo so other .NET developers can find it.
+- 🔁 Related: [Cohere Rerank v5 C# Sample](https://github.com/taswar/Cohere-Rerank-V5-Pro-Fast-Csharp-Sample)
+- For more C# samples using other AI models, see [AI models for C# developers](https://taswar.zeytinsoft.com/foundry-ai-models-csharp/)
+- For my free ebook on prompt engineering, see [Prompt Engineering for .NET Developers](https://github.com/taswar/PromptEngineeringForDotNetDevelopers)
 
 A minimal .NET console app that calls the **Cohere Command A+** model deployed on
 **Microsoft Foundry** using the `Azure.AI.Inference` SDK. It demonstrates:
 
 - Passwordless authentication with **Entra ID** (`DefaultAzureCredential`) — no API keys in code.
-- A structured-output **contract analysis** prompt that returns JSON.
+- A **contract analysis** prompt that asks for the key terms and risks as JSON.
 - A **multilingual** prompt (German contract → English JSON) using the same model.
 
 ## Prerequisites
@@ -69,17 +80,13 @@ $env:AZURE_AI_MODEL = "cohere-command-a-plus"
 
 ## Run the demo
 
-From the project folder:
+Clone the repo, set the endpoint (see [Configuration](#configuration)), sign in and run:
 
 ```powershell
+git clone https://github.com/taswar/CohereCommandAPlusDemo.git
 cd CohereCommandAPlusDemo
+az login
 dotnet run
-```
-
-Or from the solution root, targeting the project file:
-
-```powershell
-dotnet run --project CohereCommandAPlusDemo/CohereCommandAPlusDemo.csproj
 ```
 
 ## What it does
@@ -104,7 +111,14 @@ Both responses are printed to the console.
 
 ```
 CohereCommandAPlusDemo/
-├── CohereCommandAPlusDemo.csproj
-├── Program.cs
+├── .github/workflows/dotnet.yml   Build workflow
+├── CohereCommandAPlusDemo.csproj  .NET 10 project and package references
+├── Program.cs                     Client setup and both prompts
+├── CONTRIBUTING.md                How to contribute
+├── LICENSE                        MIT license
 └── README.md
 ```
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
